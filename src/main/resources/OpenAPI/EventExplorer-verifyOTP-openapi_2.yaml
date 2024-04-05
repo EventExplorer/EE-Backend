@@ -1,0 +1,36 @@
+openapi: "3.0.3"
+info:
+  title: "EventExplorer API"
+  description: "EventExplorer API"
+  version: "1.0.0"
+servers:
+  - url: "https://EventExplorer"
+paths:
+  /v1/verify:
+    post:
+      summary: "POST v1/verify"
+      operationId: "verify"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/VerifyOTPRequest"
+        required: true
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+        "401":
+          description: "NOT FOUND"
+components:
+  schemas:
+    VerifyOTPRequest:
+      type: "object"
+      properties:
+        email:
+          type: "string"
+        otp:
+          type: "string"

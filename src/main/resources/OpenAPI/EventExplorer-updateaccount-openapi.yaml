@@ -1,0 +1,44 @@
+openapi: "3.0.3"
+info:
+  title: "EventExplorer API"
+  description: "EventExplorer API"
+  version: "1.0.0"
+servers:
+  - url: "https://EventExplorer"
+paths:
+  /v1/update:
+    post:
+      summary: "POST v1/update"
+      operationId: "UpdateUserInfo"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateUserRequest"
+        required: true
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+components:
+  schemas:
+    UpdateUserRequest:
+      type: "object"
+      properties:
+        email:
+          type: "string"
+        address:
+          type: "string"
+        city:
+          type: "string"
+        state:
+          type: "string"
+        zipcode:
+          type: "string"
+        gender:
+          type: "string"
+        phoneNumber:
+          type: "string"

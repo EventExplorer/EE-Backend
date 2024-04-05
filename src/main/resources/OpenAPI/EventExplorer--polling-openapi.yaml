@@ -1,0 +1,147 @@
+openapi: "3.0.3"
+info:
+  title: "EventExplorer API"
+  description: "EventExplorer API"
+  version: "1.0.0"
+servers:
+  - url: "https://EventExplorer"
+paths:
+  /ee/v1/artists:
+    get:
+      summary: "GET ee/v1/artists"
+      operationId: "findAllArtists"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "array"
+                items:
+                  $ref: "#/components/schemas/ArtistEntity"
+  /ee/v1/artists/{artistId}:
+    get:
+      summary: "GET ee/v1/artists/{artistId}"
+      operationId: "findArtistId"
+      parameters:
+        - name: "artistId"
+          in: "path"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "array"
+                items:
+                  $ref: "#/components/schemas/ArtistEntity"
+  /ee/v1/categories:
+    get:
+      summary: "GET ee/v1/categories"
+      operationId: "findAllCategories"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "array"
+                items:
+                  $ref: "#/components/schemas/CategoryEntity"
+  /ee/v1/counties:
+    get:
+      summary: "GET ee/v1/counties"
+      operationId: "findAllCounties"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "array"
+                items:
+                  $ref: "#/components/schemas/CountiesEntity"
+  /ee/v1/poll:
+    post:
+      summary: "POST ee/v1/poll"
+      operationId: "createPoll"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PollingRequest"
+        required: true
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+  /ee/v1/regions:
+    get:
+      summary: "GET ee/v1/regions"
+      operationId: "findAllRegions"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "array"
+                items:
+                  $ref: "#/components/schemas/RegionEntity"
+components:
+  schemas:
+    ArtistEntity:
+      type: "object"
+      properties:
+        id:
+          type: "integer"
+          format: "int32"
+        name:
+          type: "string"
+        matchingId:
+          type: "integer"
+          format: "int32"
+    CategoryEntity:
+      type: "object"
+      properties:
+        id:
+          type: "integer"
+          format: "int32"
+        name:
+          type: "string"
+    CountiesEntity:
+      type: "object"
+      properties:
+        id:
+          type: "integer"
+          format: "int32"
+        name:
+          type: "string"
+    PollingRequest:
+      type: "object"
+      properties:
+        categoryId:
+          type: "integer"
+          format: "int32"
+        regionId:
+          type: "integer"
+          format: "int32"
+        countyName:
+          type: "string"
+        artistId:
+          type: "integer"
+          format: "int32"
+    RegionEntity:
+      type: "object"
+      properties:
+        id:
+          type: "integer"
+          format: "int32"
+        name:
+          type: "string"

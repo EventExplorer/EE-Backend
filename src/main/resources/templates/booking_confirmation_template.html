@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking Confirmation</title>
+</head>
+<body>
+<p>Dear [[${customerName}]],</p>
+
+
+<p>We are delighted to inform you that your tickets have been successfully booked for the upcoming event through Event Explorer. We appreciate your trust in our services and are excited to have you join us for the event.</p>
+
+
+<p>Below, you will find your booking confirmation details along with the confirmation code:</p>
+
+<ul>
+    <li><strong>Event Name:</strong> [[${eventName}]]</li>
+    <li><strong>Date:</strong> [[${eventDate}]]</li>
+    <li><strong>Time:</strong> [[${eventTime}]]</li>
+    <li><strong>Venue:</strong> [[${eventVenue}]]</li>
+    <li><strong>Number of Tickets:</strong> [[${numTickets}]]</li>
+    <li><strong>Seat Numbers:</strong> [[${seatNumber}]]</li>
+</ul>
+
+<p><strong>Confirmation Code:</strong> [[${confirmationCode}]]</p>
+
+<p>Please keep this confirmation code safe, as it will be required for any inquiries or changes regarding your booking. If you have any questions or need further assistance, feel free to reach out to our customer support team.</p>
+
+<p>Thank you once again for choosing Event Explorer. We look forward to providing you with an exceptional experience at the event.</p>
+
+<p>Thank You,<br/>Event Explorer</p>
+
+</body>
+</html>

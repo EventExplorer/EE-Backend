@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Verification</title>
+</head>
+<body>
+<p>Dear [[${userName}]],</p>
+
+<p>Thank you for signing up with Event Explorer!</p>
+
+<p>To complete your registration, please verify your email address by entering the following One-Time Password (OTP) in the app:</p>
+
+<p style="font-size: 20px; font-weight: bold;">[[${otp}]]</p>
+
+<p><strong>Instructions:</strong></p>
+<ol>
+  <li>Go to the verification section or enter the OTP where prompted.</li>
+  <li>Enter the OTP provided above to verify your email address.</li>
+</ol>
+
+<p>If you did not sign up for Event Explorer, please ignore this email.</p>
+
+<p>Thank you,<br>
+  Event Explorer Team</p>
+</body>
+</html>

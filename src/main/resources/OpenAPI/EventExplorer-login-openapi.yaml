@@ -1,0 +1,36 @@
+openapi: "3.0.3"
+info:
+  title: "EventExplorer API"
+  description: "EventExplorer API"
+  version: "1.0.0"
+servers:
+  - url: "https://EventExplorer"
+paths:
+  /v1/login:
+    post:
+      summary: "POST v1/login"
+      operationId: "login"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/LoginRequest"
+        required: true
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+        "404":
+          description: "NOT FOUND"
+components:
+  schemas:
+    LoginRequest:
+      type: "object"
+      properties:
+        email:
+          type: "string"
+        password:
+          type: "string"

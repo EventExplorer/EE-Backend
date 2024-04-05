@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form Submission</title>
+</head>
+<body>
+<p><strong>Dear [[${userName}]],</strong></p>
+
+<p>Greetings from EventExplorer!</p>
+
+<p>We wanted to let you know that we have received your recent inquiry. Our team is currently reviewing your message, and we aim to provide you with a response promptly. Please rest assured that we will be in touch with you within the next 24-48 hours.</p>
+
+<blockquote>
+    <p>Request Description:</p>
+    <em th:text="${message}"></em>
+</blockquote>
+
+
+<p>Thank you for choosing EventExplorer. We look forward to assisting you further.</p>
+
+<p>Thank you,<br>Event Explorer Team</p>
+</body>
+</html>

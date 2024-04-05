@@ -1,0 +1,66 @@
+CREATE TABLE `EventExplorer`.Counties (
+                                          id INT AUTO_INCREMENT PRIMARY KEY,
+                                          name VARCHAR(255) NOT NULL
+);
+
+
+INSERT INTO EventExplorer.Counties (id, name) VALUES (1, 'Albany');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (2, 'Allegany');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (3, 'Bronx');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (4, 'Broome');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (5, 'Cattaraugus');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (6, 'Cayuga');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (7, 'Chautauqua');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (8, 'Chemung');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (9, 'Chenango');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (10, 'Clinton');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (11, 'Columbia');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (12, 'Cortland');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (14, 'Dutchess');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (15, 'Erie');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (16, 'Essex');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (17, 'Franklin');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (18, 'Fulton');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (19, 'Genesee');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (20, 'Greene');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (21, 'Hamilton');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (22, 'Herkimer');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (23, 'Jefferson');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (24, 'Kings (Brooklyn)');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (25, 'Lewis');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (26, 'Livingston');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (27, 'Madison');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (28, 'Monroe');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (29, 'Montgomery');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (30, 'Nassau');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (31, 'New York (Manhattan)');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (32, 'Niagara');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (33, 'Oneida');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (34, 'Onondaga');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (35, 'Ontario');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (36, 'Orange');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (37, 'Orleans');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (38, 'Oswego');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (39, 'Otsego');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (40, 'Putnam');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (41, 'Queens');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (42, 'Rensselaer');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (43, 'Richmond (Staten Island)');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (44, 'Rockland');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (45, 'Saratoga');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (46, 'Schenectady');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (47, 'Schoharie');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (48, 'Schuyler');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (49, 'Seneca');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (50, 'Steuben');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (51, 'Suffolk');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (52, 'Sullivan');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (53, 'Tioga');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (54, 'Tompkins');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (55, 'Ulster');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (56, 'Warren');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (57, 'Washington');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (58, 'Wayne');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (59, 'Westchester');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (60, 'Wyoming');
+INSERT INTO EventExplorer.Counties (id, name) VALUES (61, 'Yates');

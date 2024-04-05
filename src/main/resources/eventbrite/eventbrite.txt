@@ -1,0 +1,7 @@
+GET /v3/users/me HTTP 1.1
+Host: www.eventbriteapi.com
+Authorization: Bearer G625VPSGXCWGJ4CPLP5R
+
+
+// second way to authenticate
+https://www.eventbriteapi.com/v3/users/me/?token=G625VPSGXCWGJ4CPLP5R

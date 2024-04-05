@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5bb3dd24.css",
+    "main.js": "/static/js/main.025541f1.js",
+    "static/media/taylor.png": "/static/media/taylor.704fb87132725afb5a80.png",
+    "static/media/kc.png": "/static/media/kc.3aa9c7fbd67ae1ee24d3.png",
+    "static/media/baseball.png": "/static/media/baseball.738d2b1abf3cca101e93.png",
+    "static/media/joshallen.png": "/static/media/joshallen.5489451df560715413a0.png",
+    "static/media/blackpink.png": "/static/media/blackpink.af9472c391fbe399f850.png",
+    "static/media/arts2.png": "/static/media/arts2.bd1f12f9341550b092dc.png",
+    "static/media/international.jpeg": "/static/media/international.bfb3502a8931199a5cd9.jpeg",
+    "static/media/arts1.png": "/static/media/arts1.eedd6dbd1bc6a0b6b3c1.png",
+    "static/media/Dualipa.png": "/static/media/Dualipa.5a2f5cc609578b11c01b.png",
+    "static/media/default.jpg": "/static/media/default.1fd43640e32649605a85.jpg",
+    "static/media/backinback.png": "/static/media/backinback.05d036a491fc15d3907e.png",
+    "static/media/explorer-sports.jpg": "/static/media/explorer-sports.f9bb83fe82796ca315c9.jpg",
+    "static/media/arts3.png": "/static/media/arts3.f19054c7b69965ad0713.png",
+    "static/media/almostqueen.png": "/static/media/almostqueen.323d6232519cf008174a.png",
+    "static/media/gunna.png": "/static/media/gunna.309e2d4ab1a23ccbd6d5.png",
+    "static/media/explorer-musicv2.jpg": "/static/media/explorer-musicv2.9c21a6321fa95eab8bf4.jpg",
+    "static/media/logo.png": "/static/media/logo.5643f8b514108525f7fe.png",
+    "static/media/eric.png": "/static/media/eric.7cd0da7236ffebcf1b12.png",
+    "static/media/profile.png": "/static/media/profile.9fa41bedea07763e6074.png",
+    "static/media/settings.png": "/static/media/settings.f7b1035622557c87aa8e.png",
+    "static/media/logo.svg": "/static/media/logo.ecb09118c602d997da81e3e8f08336b3.svg",
+    "static/media/sceduled.svg": "/static/media/sceduled.581f6358c6805f3526b541631cd43f8b.svg",
+    "static/media/social.svg": "/static/media/social.90efc33f513f2c9b785ce4412cbc917e.svg",
+    "static/media/home-solid.svg": "/static/media/home-solid.831db11df61127740a8d5f67fb8952cb.svg",
+    "static/media/power-off-solid.svg": "/static/media/power-off-solid.64f21014c828ee1ee201f3a796f884df.svg",
+    "index.html": "/index.html",
+    "static/media/draft.svg": "/static/media/draft.cbc488ec750666825d8a9b5e319bdead.svg",
+    "static/media/starred.svg": "/static/media/starred.3f5eb997d90860946b7a4f3e38088eb4.svg",
+    "main.5bb3dd24.css.map": "/static/css/main.5bb3dd24.css.map",
+    "main.025541f1.js.map": "/static/js/main.025541f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bb3dd24.css",
+    "static/js/main.025541f1.js"
+  ]
+}

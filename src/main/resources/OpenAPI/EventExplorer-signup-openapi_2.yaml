@@ -1,0 +1,45 @@
+openapi: "3.0.3"
+info:
+  title: "EventExplorer API"
+  description: "EventExplorer API"
+  version: "1.0.0"
+servers:
+  - url: "https://EventExplorer"
+paths:
+  /v1/signup:
+    post:
+      summary: "POST v1/signup"
+      operationId: "register"
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/RegistrationRequest"
+        required: true
+      responses:
+        "200":
+          description: "OK"
+          content:
+            '*/*':
+              schema:
+                type: "string"
+        "400":
+          description: "Bad Request"
+components:
+  schemas:
+    RegistrationRequest:
+      type: "object"
+      properties:
+        userUUID:
+          type: "string"
+        email:
+          type: "string"
+        password:
+          type: "string"
+        dateOfBirth:
+          type: "string"
+          format: "date"
+        firstName:
+          type: "string"
+        lastName:
+          type: "string"
