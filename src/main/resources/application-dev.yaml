@@ -1,0 +1,32 @@
+
+server:
+  servlet:
+    context-path: /
+  port: 8082
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  jta:
+    enabled: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/EventExplorer
+#    url: jdbc:mysql://event-explorer.cp8siesauc51.us-east-2.rds.amazonaws.com:3306/EventExplorer
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  main:
+    allow-bean-definition-overriding: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: eventexplorer099@gmail.com
+    password: fmge hdas daup fvcw
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls.enable: true
+
